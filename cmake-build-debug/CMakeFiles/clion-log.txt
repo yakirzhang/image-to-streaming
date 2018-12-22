@@ -1,0 +1,19 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/test/workspace/image-to-streaming
+-- include 3rd_party_x64.cmake
+-- /home/test/workspace/image-to-streaming
+-- Boost version: 1.67.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+-- /usr/include
+-- /usr/lib/x86_64-linux-gnu/libboost_system.so/usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+-- Found installed version of Eigen: /usr/lib/cmake/eigen3
+-- Found required Ceres dependency: Eigen version 3.3.4 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found installed version of gflags: /usr/lib/x86_64-linux-gnu/cmake/gflags
+-- Detected gflags version: 2.2.1
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 1.13.0 installed in: /usr with components: [LAPACK, SuiteSparse, SparseLinearAlgebraLibrary, CXSparse, SchurSpecializations, OpenMP]
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/test/workspace/image-to-streaming/cmake-build-debug

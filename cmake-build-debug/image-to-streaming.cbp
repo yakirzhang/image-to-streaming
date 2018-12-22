@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="image-to-streaming"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\OpenCV\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\usr\lib\cmake\Ceres\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/test/workspace/image-to-streaming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/test/workspace/image-to-streaming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/test/workspace/image-to-streaming/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gstreamer3">
+				<Option output="/home/test/workspace/image-to-streaming/cmake-build-debug/test_gstreamer3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/test/workspace/image-to-streaming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/orc-0.4"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/gtk-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_gstreamer3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gstreamer3/fast">
+				<Option output="/home/test/workspace/image-to-streaming/cmake-build-debug/test_gstreamer3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/test/workspace/image-to-streaming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/orc-0.4"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/gtk-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_gstreamer3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gstreamer2">
+				<Option output="/home/test/workspace/image-to-streaming/cmake-build-debug/test_gstreamer2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/test/workspace/image-to-streaming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/orc-0.4"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/gtk-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_gstreamer2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gstreamer2/fast">
+				<Option output="/home/test/workspace/image-to-streaming/cmake-build-debug/test_gstreamer2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/test/workspace/image-to-streaming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/orc-0.4"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/gtk-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_gstreamer2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gstreamer">
+				<Option output="/home/test/workspace/image-to-streaming/cmake-build-debug/test_gstreamer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/test/workspace/image-to-streaming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/orc-0.4"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/gtk-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_gstreamer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_gstreamer/fast">
+				<Option output="/home/test/workspace/image-to-streaming/cmake-build-debug/test_gstreamer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/test/workspace/image-to-streaming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/orc-0.4"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/gtk-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_gstreamer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t3">
+				<Option output="/home/test/workspace/image-to-streaming/cmake-build-debug/t3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/test/workspace/image-to-streaming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/orc-0.4"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/gtk-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/home/test/workspace/image-to-streaming/nanomsg/install/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 t3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t3/fast">
+				<Option output="/home/test/workspace/image-to-streaming/cmake-build-debug/t3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/test/workspace/image-to-streaming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/orc-0.4"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/gtk-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/home/test/workspace/image-to-streaming/nanomsg/install/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 t3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t2">
+				<Option output="/home/test/workspace/image-to-streaming/cmake-build-debug/t2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/test/workspace/image-to-streaming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/orc-0.4"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/gtk-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 t2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t2/fast">
+				<Option output="/home/test/workspace/image-to-streaming/cmake-build-debug/t2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/test/workspace/image-to-streaming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/orc-0.4"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/gtk-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 t2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t1">
+				<Option output="/home/test/workspace/image-to-streaming/cmake-build-debug/t1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/test/workspace/image-to-streaming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/orc-0.4"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/gtk-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 t1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t1/fast">
+				<Option output="/home/test/workspace/image-to-streaming/cmake-build-debug/t1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/test/workspace/image-to-streaming/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/gstreamer-1.0"/>
+					<Add directory="/usr/include/orc-0.4"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/gtk-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/fribidi"/>
+					<Add directory="/usr/include/uuid"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/libpng16"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 t1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/test/workspace/image-to-streaming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/test/workspace/image-to-streaming/app/t3.cpp">
+			<Option target="t3"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/basic_gstreamer/t1.cpp">
+			<Option target="t1"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/basic_gstreamer/t2.cpp">
+			<Option target="t2"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/basic_gstreamer/test_gstreamer.cpp">
+			<Option target="test_gstreamer"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/basic_gstreamer/test_gstreamer2.cpp">
+			<Option target="test_gstreamer2"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/basic_gstreamer/test_gstreamer3.cpp">
+			<Option target="test_gstreamer3"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/cmake/3rd_party_x64.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/lib/cmake/Ceres/CeresConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/lib/cmake/Ceres/CeresConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/lib/cmake/Ceres/CeresTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/lib/cmake/Ceres/CeresTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/lib/cmake/Ceres/FindEigen.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/lib/cmake/Ceres/FindGflags.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/lib/cmake/Ceres/FindGlog.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\Ceres\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+		<Unit filename="/home/test/workspace/image-to-streaming/../../../../usr/lib/x86_64-linux-gnu/cmake/gflags/gflags-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\gflags\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

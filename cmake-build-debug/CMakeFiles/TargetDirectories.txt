@@ -1,0 +1,8 @@
+/home/test/workspace/image-to-streaming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/test/workspace/image-to-streaming/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/test/workspace/image-to-streaming/cmake-build-debug/CMakeFiles/test_gstreamer3.dir
+/home/test/workspace/image-to-streaming/cmake-build-debug/CMakeFiles/test_gstreamer2.dir
+/home/test/workspace/image-to-streaming/cmake-build-debug/CMakeFiles/test_gstreamer.dir
+/home/test/workspace/image-to-streaming/cmake-build-debug/CMakeFiles/t3.dir
+/home/test/workspace/image-to-streaming/cmake-build-debug/CMakeFiles/t2.dir
+/home/test/workspace/image-to-streaming/cmake-build-debug/CMakeFiles/t1.dir
