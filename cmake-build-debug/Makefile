@@ -150,6 +150,19 @@ test_gstreamer/fast:
 .PHONY : test_gstreamer/fast
 
 #=============================================================================
+# Target rules for targets named t_yuv
+
+# Build rule for target.
+t_yuv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 t_yuv
+.PHONY : t_yuv
+
+# fast build rule for target.
+t_yuv/fast:
+	$(MAKE) -f CMakeFiles/t_yuv.dir/build.make CMakeFiles/t_yuv.dir/build
+.PHONY : t_yuv/fast
+
+#=============================================================================
 # Target rules for targets named t3
 
 # Build rule for target.
@@ -214,6 +227,33 @@ app/t3.s: app/t3.cpp.s
 app/t3.cpp.s:
 	$(MAKE) -f CMakeFiles/t3.dir/build.make CMakeFiles/t3.dir/app/t3.cpp.s
 .PHONY : app/t3.cpp.s
+
+app/t_yuv.o: app/t_yuv.cpp.o
+
+.PHONY : app/t_yuv.o
+
+# target to build an object file
+app/t_yuv.cpp.o:
+	$(MAKE) -f CMakeFiles/t_yuv.dir/build.make CMakeFiles/t_yuv.dir/app/t_yuv.cpp.o
+.PHONY : app/t_yuv.cpp.o
+
+app/t_yuv.i: app/t_yuv.cpp.i
+
+.PHONY : app/t_yuv.i
+
+# target to preprocess a source file
+app/t_yuv.cpp.i:
+	$(MAKE) -f CMakeFiles/t_yuv.dir/build.make CMakeFiles/t_yuv.dir/app/t_yuv.cpp.i
+.PHONY : app/t_yuv.cpp.i
+
+app/t_yuv.s: app/t_yuv.cpp.s
+
+.PHONY : app/t_yuv.s
+
+# target to generate assembly for a file
+app/t_yuv.cpp.s:
+	$(MAKE) -f CMakeFiles/t_yuv.dir/build.make CMakeFiles/t_yuv.dir/app/t_yuv.cpp.s
+.PHONY : app/t_yuv.cpp.s
 
 basic_gstreamer/t1.o: basic_gstreamer/t1.cpp.o
 
@@ -357,16 +397,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... test_gstreamer3"
 	@echo "... test_gstreamer2"
 	@echo "... test_gstreamer"
+	@echo "... edit_cache"
+	@echo "... t_yuv"
 	@echo "... t3"
 	@echo "... t2"
 	@echo "... t1"
 	@echo "... app/t3.o"
 	@echo "... app/t3.i"
 	@echo "... app/t3.s"
+	@echo "... app/t_yuv.o"
+	@echo "... app/t_yuv.i"
+	@echo "... app/t_yuv.s"
 	@echo "... basic_gstreamer/t1.o"
 	@echo "... basic_gstreamer/t1.i"
 	@echo "... basic_gstreamer/t1.s"

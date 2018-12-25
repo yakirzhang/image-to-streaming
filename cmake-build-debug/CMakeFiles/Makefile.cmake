@@ -78,6 +78,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test_gstreamer3.dir/DependInfo.cmake"
   "CMakeFiles/test_gstreamer2.dir/DependInfo.cmake"
   "CMakeFiles/test_gstreamer.dir/DependInfo.cmake"
+  "CMakeFiles/t_yuv.dir/DependInfo.cmake"
   "CMakeFiles/t3.dir/DependInfo.cmake"
   "CMakeFiles/t2.dir/DependInfo.cmake"
   "CMakeFiles/t1.dir/DependInfo.cmake"
