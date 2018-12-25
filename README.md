@@ -29,5 +29,7 @@ https://github.com/arut/nginx-rtmp-module/wiki/Getting-started-with-nginx-rtmp
 ./configure --with-http_ssl_module --add-module=../nginx-rtmp-module --with-cc-opt="-Wimplicit-fallthrough=0"
 conf/nginx.conf里面需要设置流媒体地址上面默认是叫my-app来着我改成了live
 
+- 播放延迟过大可以 ffplay rtmp://localhost/live -fflags nobuffer 
+
 ## License (GLWT)
 :)
