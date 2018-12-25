@@ -29,6 +29,17 @@ https://github.com/arut/nginx-rtmp-module/wiki/Getting-started-with-nginx-rtmp
 ./configure --with-http_ssl_module --add-module=../nginx-rtmp-module --with-cc-opt="-Wimplicit-fallthrough=0"
 conf/nginx.conf里面需要设置流媒体地址上面默认是叫my-app来着我改成了live
 
+- 播放自己笔记本的摄像头的小demo
+```c++
+首先运行nginx 
+
+然后stream to server // ffmpeg 用apt-get 安装
+ffmpeg  -f video4linux2  -s 1280x720 -i /dev/video0 -vcodec libx264 -preset ultrafast -vprofile baseline -vlevel 1.0  -s 640x480 -b:v 800k -r 25  -pix_fmt yuv420p -f flv rtmp://localhost/live
+
+然后look in client
+ffplay rtmp://localhost/live -fflags nobuffer
+```
+
 - 播放延迟过大可以 ffplay rtmp://localhost/live -fflags nobuffer 
 
 ## License (GLWT)
